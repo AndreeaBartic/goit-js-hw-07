@@ -31,11 +31,13 @@ galleryElement.addEventListener("click", function (event) {
   `);
 
   instance.show();
-});
 
-document.addEventListener("keydown", function (event) {
+  document.addEventListener("keydown", function (event) {
   if (event.key === "Escape" && instance) {
     instance.close();
   }
 });
+
+});
 console.log(galleryItems);
+
